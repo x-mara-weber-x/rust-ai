@@ -1,7 +1,4 @@
-mod flow_matrix;
-pub mod heap_matrix;
-pub mod matrix;
-pub mod stack_matrix;
-mod aliases;
-mod linear_algebra;
-mod vector;
+pub mod flow_matrix;
+pub mod linear_algebra;
+pub mod typed_matrix;
+pub mod vector;
