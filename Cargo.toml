@@ -8,5 +8,8 @@ edition = "2021"
 
 [dependencies]
 enum_dispatch = "0.3.12"
-tensorflow = "0.21.0"
+# tch = "0.15.0"
 num-traits = "0.2.18"
+quickcheck = "1.0.3"
+quickcheck_macros = "1.0.0"
+float-cmp = "0.9.0"
