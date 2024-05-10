@@ -1,0 +1,16 @@
+[package]
+name = "rust-ai_math-core"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = []
+tensorflow = []
+
+[dependencies]
+enum_dispatch = "0.3.12"
+# tch = "0.15.0"
+num-traits = "0.2.18"
+quickcheck = "1.0.3"
+quickcheck_macros = "1.0.0"
+float-cmp = "0.9.0"
