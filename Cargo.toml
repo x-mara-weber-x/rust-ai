@@ -1,15 +1,5 @@
-[package]
-name = "rust-ai"
-version = "0.1.0"
-edition = "2021"
+[workspace]
 
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-enum_dispatch = "0.3.12"
-# tch = "0.15.0"
-num-traits = "0.2.18"
-quickcheck = "1.0.3"
-quickcheck_macros = "1.0.0"
-float-cmp = "0.9.0"
+members = [
+    "rust-ai_math-core",
+]
